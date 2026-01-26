@@ -1,6 +1,5 @@
 namespace Lab01.Patterns.AbstractFactory
 {
-    // Concrete Product A2 - Premium Email
     public class PremiumEmailNotification : IEmailNotification
     {
         public string SendEmail(string recipient, string subject, string body)
@@ -9,7 +8,6 @@ namespace Lab01.Patterns.AbstractFactory
         }
     }
 
-    // Concrete Product B2 - Premium SMS
     public class PremiumSMSNotification : ISMSNotification
     {
         public string SendSMS(string phoneNumber, string message)

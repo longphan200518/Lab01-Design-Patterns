@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xonoW4LbaUOWhSfaCAcKvfTOHku4cBU+gLPYn4/s9TkXn5RM3Crjt360i6MKCfH4A+yCkeg5vIRDt2LZj/yNUA==",
+  "dgSpecHash": "/PLo6Q2PvnMoxe0Pt5QlqjEBJXZMI+Exzke3KjA2l6mlOVK01tizMLiK972h/+JFnqbULMbcsW9PybcoKXktIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SV\\Desktop\\Lab01\\Lab01\\Lab01.csproj",
+  "projectFilePath": "C:\\Users\\SV\\Desktop\\lab1\\Lab01-Design-Patterns\\Lab01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SV\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\SV\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

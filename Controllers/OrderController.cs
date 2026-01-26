@@ -22,7 +22,6 @@ namespace Lab01.Controllers
             {
                 _logger.Log($"Building custom order for customer: {request.CustomerName}");
 
-                // Use Builder Pattern to construct complex order step by step
                 IOrderBuilder builder = new OrderBuilder();
                 
                 builder.SetCustomerInfo(request.CustomerName, request.CustomerEmail, request.CustomerPhone);
@@ -33,7 +32,6 @@ namespace Lab01.Controllers
                 if (!string.IsNullOrEmpty(request.BillingAddress))
                     builder.SetBillingAddress(request.BillingAddress);
 
-                // Add items
                 foreach (var item in request.Items)
                 {
                     builder.AddItem(item.ProductName, item.Price, item.Quantity);

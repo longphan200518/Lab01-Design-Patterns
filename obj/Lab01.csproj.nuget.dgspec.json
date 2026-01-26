@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SV\\Desktop\\Lab01\\Lab01\\Lab01.csproj": {}
+    "C:\\Users\\SV\\Desktop\\lab1\\Lab01-Design-Patterns\\Lab01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SV\\Desktop\\Lab01\\Lab01\\Lab01.csproj": {
+    "C:\\Users\\SV\\Desktop\\lab1\\Lab01-Design-Patterns\\Lab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SV\\Desktop\\Lab01\\Lab01\\Lab01.csproj",
+        "projectUniqueName": "C:\\Users\\SV\\Desktop\\lab1\\Lab01-Design-Patterns\\Lab01.csproj",
         "projectName": "Lab01",
-        "projectPath": "C:\\Users\\SV\\Desktop\\Lab01\\Lab01\\Lab01.csproj",
+        "projectPath": "C:\\Users\\SV\\Desktop\\lab1\\Lab01-Design-Patterns\\Lab01.csproj",
         "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SV\\Desktop\\Lab01\\Lab01\\obj\\",
+        "outputPath": "C:\\Users\\SV\\Desktop\\lab1\\Lab01-Design-Patterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

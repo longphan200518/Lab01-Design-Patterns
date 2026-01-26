@@ -1,11 +1,7 @@
 namespace Lab01.Patterns.FactoryMethod
 {
-    /// <summary>
-    /// Factory Method Pattern - Creates payment method objects based on payment type
-    /// </summary>
     public class PaymentFactory
     {
-        // Factory Method
         public static IPaymentMethod CreatePaymentMethod(string paymentType)
         {
             return paymentType.ToLower() switch

@@ -20,10 +20,8 @@ namespace Lab01.Controllers
         {
             _logger.Log($"Sending email via {request.NotificationTier} tier");
 
-            // Select appropriate factory based on tier
             INotificationFactory factory = GetFactory(request.NotificationTier);
             
-            // Create email notification using the factory
             IEmailNotification emailNotification = factory.CreateEmailNotification();
             string result = emailNotification.SendEmail(request.Recipient, request.Subject, request.Body);
 
@@ -44,10 +42,8 @@ namespace Lab01.Controllers
         {
             _logger.Log($"Sending SMS via {request.NotificationTier} tier");
 
-            // Select appropriate factory based on tier
             INotificationFactory factory = GetFactory(request.NotificationTier);
             
-            // Create SMS notification using the factory
             ISMSNotification smsNotification = factory.CreateSMSNotification();
             string result = smsNotification.SendSMS(request.PhoneNumber, request.Message);
 
@@ -68,7 +64,6 @@ namespace Lab01.Controllers
         {
             _logger.Log($"Sending both Email and SMS via {request.NotificationTier} tier");
 
-            // Abstract Factory creates a family of related products
             INotificationFactory factory = GetFactory(request.NotificationTier);
             
             IEmailNotification emailNotification = factory.CreateEmailNotification();

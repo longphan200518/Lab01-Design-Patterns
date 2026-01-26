@@ -1,8 +1,5 @@
 namespace Lab01.Patterns.Builder
 {
-    /// <summary>
-    /// Builder Pattern - Constructs complex Order objects step by step
-    /// </summary>
     public class OrderBuilder : IOrderBuilder
     {
         private readonly Order _order;

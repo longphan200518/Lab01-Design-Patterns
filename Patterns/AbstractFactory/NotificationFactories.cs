@@ -1,6 +1,5 @@
 namespace Lab01.Patterns.AbstractFactory
 {
-    // Concrete Factory 1 - Creates Standard notification family
     public class StandardNotificationFactory : INotificationFactory
     {
         public IEmailNotification CreateEmailNotification()
@@ -16,7 +15,6 @@ namespace Lab01.Patterns.AbstractFactory
         public string GetFactoryType() => "Standard";
     }
 
-    // Concrete Factory 2 - Creates Premium notification family
     public class PremiumNotificationFactory : INotificationFactory
     {
         public IEmailNotification CreateEmailNotification()

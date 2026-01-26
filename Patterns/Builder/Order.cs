@@ -1,8 +1,5 @@
 namespace Lab01.Patterns.Builder
 {
-    /// <summary>
-    /// Complex product class with many optional properties
-    /// </summary>
     public class Order
     {
         public string OrderId { get; set; } = string.Empty;
